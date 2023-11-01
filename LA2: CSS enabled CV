@@ -1,0 +1,49 @@
+<!DOCTYPE html> <html>
+<head>
+<title>Abhishek Herbert Samuel's CV/Resume</title> <style>
+body {
+font-family: Arial, sans-serif; line-height: 1.6;
+margin: 0;
+padding: 20px; background-color: #f7f7f7;
+}
+h1 {
+font-size: 36px; text-align: center; margin-bottom: 10px;
+}
+h2 {
+font-size: 24px; margin-bottom: 5px;
+}
+h3 {
+font-size: 20px; margin-bottom: 5px;
+}
+p{
+margin: 5px 0;
+}
+ul {
+list-style-type: disc; padding-left: 20px;
+}
+hr {
+border: 1px solid #ccc; margin: 20px 0;
+} </style>
+</head> <body>
+<h1>Abhishek Herbert Samuel</h1> <hr>
+<h2>Education:</h2>
+<h3>B.Tech Computer Science and Engineering (Internet of Things):</h3> <p>2021-2025 (Ongoing) - Shiv Nadar University, Chennai</p>
+<h3>Grade 12:</h3>
+<p>2009-2021 - Union Christian Matriculation Higher Secondary School</p>
+<hr>
+<h2>Projects:</h2>
+<h3>Care4U:</h3>
+<p>Worked to implement an application that provides a common template for hospitals to
+manage appointments and handle other key information areas without having to set up their own software for the same, thus lowering the overall cost by approximately 35%.</p>
+<h3>Emotica - the Song Generator:</h3>
+<p>Played a pivotal role in developing the backend system for this mood-based song generator that uses the power of music to uplift and motivate those who are hurting while giving 100% user privacy.</p>
+<hr>
+<h2>Certifications:</h2> <ul>
+<li>Data Science for Engineers - IIT Madras:
+<p>Among the top 100 scorers (top 5% out of 1992 students certified) in this NPTEL
+course.</p> </li>
+</ul> <hr>
+<h2>Skills:</h2> <ul>
+
+<li>Python</li> <li>Java</li> <li>C</li> <li>MySQL</li> <li>Data Science</li>
+</ul> </body> </html>

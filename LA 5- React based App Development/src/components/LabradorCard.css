@@ -1,0 +1,49 @@
+/* src/components/LabradorCard.css */
+
+  
+  
+  .labrador-card:hover {
+    transform: scale(1.05);
+  }
+  .labrador-card img {
+    max-width: 100%;
+    height: 300px; /* Adjust the height to make the images bigger */
+    object-fit: cover;
+    flex: 1; /* Allow the image to take available vertical space */
+  }
+  
+  
+  
+  .labrador-details {
+    padding: 20px;
+    flex-grow: 1; /* Allow the details section to take available vertical space */
+  }
+  
+  .labrador-list {
+    display: flex;
+    justify-content: center; /* Center-align content horizontally */
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .labrador-card {
+    flex: 1;
+    max-width: 300px; /* Adjust the maximum width of each card */
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* src/components/LabradorCard.css */
+  .labrador-description {
+    padding: 0 20px; /* Add padding to match the other Labradors */
+    text-align: center; /* Center-align text content */
+  }
+  

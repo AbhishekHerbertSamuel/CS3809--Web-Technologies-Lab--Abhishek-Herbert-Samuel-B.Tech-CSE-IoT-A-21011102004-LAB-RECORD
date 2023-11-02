@@ -1,0 +1,57 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/abhishekherbertsamuel/labrador-types-app/public/labrador-background.jpeg'); /* Set the background image URL */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Fixed background scrolling */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labrador-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+
+.labrador-card {
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+  height: 400px; /* Set a fixed height for all cards */
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.labrador-card:hover {
+  transform: scale(1.05);
+}
+
+.labrador-card img {
+  max-width: 100%;
+  height: 200px; /* Set the desired height for all images */
+  object-fit: cover;
+  flex: 1; /* Allow the image to take available vertical space */
+}
+
+.labrador-details {
+  padding: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  color: #FFDAB9; /* Change the color to peach */
+}
+
